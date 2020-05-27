@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: green;
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1em 1em 1em 3em;
+}
+
+.container {
+  margin: 5% 0 0 30%;
+}
+.row {
+  display: grid;
+  grid-template-columns: 9em 9em;
+  grid-template-rows: 9em 9em;
+  column-gap: 15%;
+}
+
+.red {
+  background-color: red;
+  border-radius: 20%;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 20%;
+}
+
+.green {
+  background-color: #44bd32;
+  border-radius: 20%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 20%;
+}
+
+.game-over{
+  background-color: red;
+  opacity: 0.8;
+}
